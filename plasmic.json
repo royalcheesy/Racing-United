@@ -1,0 +1,510 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "seaQhLVS4bbjiGvJJrRwyL",
+      "projectApiToken": "nPw276qGsy9kISQCHrcRrsj3Y9Yva9TMyYKNUpoOMOHgRj1A51qOC6LMB2185QlA52K87n32oQJHSi5be9w",
+      "projectName": "LIBRARY Plasmic Color + Type",
+      "version": "15.0.3",
+      "cssFilePath": "plasmic/library_plasmic_color_type/plasmic_library_plasmic_color_type.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    },
+    {
+      "projectId": "5VuZBYsf9XShsH8JN1E7RG",
+      "projectApiToken": "g82qyZD1rKbNmNR38aA6aXOkFRtaakNjrLxSniM6ZGfgriSNIGhaKSzqK0MgVnijBZqZCwezWjJelH1g",
+      "projectName": "Racing United 2",
+      "version": "latest",
+      "cssFilePath": "plasmic/racing_united_2/plasmic_racing_united_2.module.css",
+      "components": [
+        {
+          "id": "M57Gw6oGV1ap4",
+          "name": "Home",
+          "type": "managed",
+          "projectId": "5VuZBYsf9XShsH8JN1E7RG",
+          "renderModuleFilePath": "plasmic/racing_united_2/PlasmicHome.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/racing_united_2/PlasmicHome.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "wX8V0L1xhHdJc",
+          "name": "Header",
+          "type": "managed",
+          "projectId": "5VuZBYsf9XShsH8JN1E7RG",
+          "renderModuleFilePath": "plasmic/racing_united_2/PlasmicHeader.tsx",
+          "importSpec": {
+            "modulePath": "Header.tsx"
+          },
+          "cssFilePath": "plasmic/racing_united_2/PlasmicHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "r0XKLvlIvZxeK",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "5VuZBYsf9XShsH8JN1E7RG",
+          "renderModuleFilePath": "plasmic/racing_united_2/PlasmicFooter.tsx",
+          "importSpec": {
+            "modulePath": "Footer.tsx"
+          },
+          "cssFilePath": "plasmic/racing_united_2/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "_ovNmxtbbxZst",
+          "name": "FeatureCard",
+          "type": "managed",
+          "projectId": "5VuZBYsf9XShsH8JN1E7RG",
+          "renderModuleFilePath": "plasmic/racing_united_2/PlasmicFeatureCard.tsx",
+          "importSpec": {
+            "modulePath": "FeatureCard.tsx"
+          },
+          "cssFilePath": "plasmic/racing_united_2/PlasmicFeatureCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "a4Y-Hq6o2G_xa",
+          "name": "HomeCta",
+          "type": "managed",
+          "projectId": "5VuZBYsf9XShsH8JN1E7RG",
+          "renderModuleFilePath": "plasmic/racing_united_2/PlasmicHomeCta.tsx",
+          "importSpec": {
+            "modulePath": "HomeCta.tsx"
+          },
+          "cssFilePath": "plasmic/racing_united_2/PlasmicHomeCta.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "f1QrNbh-4JGl8",
+          "name": "IconLink",
+          "type": "managed",
+          "projectId": "5VuZBYsf9XShsH8JN1E7RG",
+          "renderModuleFilePath": "plasmic/racing_united_2/PlasmicIconLink.tsx",
+          "importSpec": {
+            "modulePath": "IconLink.tsx"
+          },
+          "cssFilePath": "plasmic/racing_united_2/PlasmicIconLink.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "HQ-KRKWD-BLbW",
+          "name": "Testimonial",
+          "type": "managed",
+          "projectId": "5VuZBYsf9XShsH8JN1E7RG",
+          "renderModuleFilePath": "plasmic/racing_united_2/PlasmicTestimonial.tsx",
+          "importSpec": {
+            "modulePath": "Testimonial.tsx"
+          },
+          "cssFilePath": "plasmic/racing_united_2/PlasmicTestimonial.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "SQD5u7FMzy4Rj",
+          "name": "Avatar",
+          "type": "managed",
+          "projectId": "5VuZBYsf9XShsH8JN1E7RG",
+          "renderModuleFilePath": "plasmic/racing_united_2/PlasmicAvatar.tsx",
+          "importSpec": {
+            "modulePath": "Avatar.tsx"
+          },
+          "cssFilePath": "plasmic/racing_united_2/PlasmicAvatar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "LPn3X0WOAI1NFY",
+          "name": "Pricing",
+          "type": "managed",
+          "projectId": "5VuZBYsf9XShsH8JN1E7RG",
+          "renderModuleFilePath": "plasmic/racing_united_2/PlasmicPricing.tsx",
+          "importSpec": {
+            "modulePath": "../pages/pricing.tsx"
+          },
+          "cssFilePath": "plasmic/racing_united_2/PlasmicPricing.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "Ns7BOReE0trlan",
+          "name": "BaseCard",
+          "type": "managed",
+          "projectId": "5VuZBYsf9XShsH8JN1E7RG",
+          "renderModuleFilePath": "plasmic/racing_united_2/PlasmicBaseCard.tsx",
+          "importSpec": {
+            "modulePath": "BaseCard.tsx"
+          },
+          "cssFilePath": "plasmic/racing_united_2/PlasmicBaseCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "lJKnMWacxDx8LT",
+          "name": "Plan",
+          "type": "managed",
+          "projectId": "5VuZBYsf9XShsH8JN1E7RG",
+          "renderModuleFilePath": "plasmic/racing_united_2/PlasmicPlan.tsx",
+          "importSpec": {
+            "modulePath": "Plan.tsx"
+          },
+          "cssFilePath": "plasmic/racing_united_2/PlasmicPlan.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "9lO5Mrw7VWa6cw",
+          "name": "Bullet",
+          "type": "managed",
+          "projectId": "5VuZBYsf9XShsH8JN1E7RG",
+          "renderModuleFilePath": "plasmic/racing_united_2/PlasmicBullet.tsx",
+          "importSpec": {
+            "modulePath": "Bullet.tsx"
+          },
+          "cssFilePath": "plasmic/racing_united_2/PlasmicBullet.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "MCZubOScHQegmi",
+          "name": "Faq",
+          "type": "managed",
+          "projectId": "5VuZBYsf9XShsH8JN1E7RG",
+          "renderModuleFilePath": "plasmic/racing_united_2/PlasmicFaq.tsx",
+          "importSpec": {
+            "modulePath": "Faq.tsx"
+          },
+          "cssFilePath": "plasmic/racing_united_2/PlasmicFaq.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "xs2fNy0jjNRfgJ",
+          "name": "Features",
+          "type": "managed",
+          "projectId": "5VuZBYsf9XShsH8JN1E7RG",
+          "renderModuleFilePath": "plasmic/racing_united_2/PlasmicFeatures.tsx",
+          "importSpec": {
+            "modulePath": "../pages/features.tsx"
+          },
+          "cssFilePath": "plasmic/racing_united_2/PlasmicFeatures.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "qFGWBK_MfVBLaM",
+          "name": "Section",
+          "type": "managed",
+          "projectId": "5VuZBYsf9XShsH8JN1E7RG",
+          "renderModuleFilePath": "plasmic/racing_united_2/PlasmicSection.tsx",
+          "importSpec": {
+            "modulePath": "Section.tsx"
+          },
+          "cssFilePath": "plasmic/racing_united_2/PlasmicSection.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "sQp0QwchPesocp",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "5VuZBYsf9XShsH8JN1E7RG",
+          "renderModuleFilePath": "plasmic/racing_united_2/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/racing_united_2/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "_YZ2ilro2tnpiR",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "5VuZBYsf9XShsH8JN1E7RG",
+          "renderModuleFilePath": "plasmic/racing_united_2/PlasmicTextInput.tsx",
+          "importSpec": {
+            "modulePath": "TextInput.tsx"
+          },
+          "cssFilePath": "plasmic/racing_united_2/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "CI0PNHKYjBuNca",
+          "name": "RacingUnitedHome",
+          "type": "managed",
+          "projectId": "5VuZBYsf9XShsH8JN1E7RG",
+          "renderModuleFilePath": "plasmic/racing_united_2/PlasmicRacingUnitedHome.tsx",
+          "importSpec": {
+            "modulePath": "../pages/racing-united-home.tsx"
+          },
+          "cssFilePath": "plasmic/racing_united_2/PlasmicRacingUnitedHome.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "sIOvHS6h62",
+          "name": "RacingUnited",
+          "type": "managed",
+          "projectId": "5VuZBYsf9XShsH8JN1E7RG",
+          "renderModuleFilePath": "plasmic/racing_united_2/PlasmicRacingUnited.tsx",
+          "importSpec": {
+            "modulePath": "../pages/racing-united.tsx"
+          },
+          "cssFilePath": "plasmic/racing_united_2/PlasmicRacingUnited.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "K5JDubdFdQ",
+          "name": "RacingUnited2",
+          "type": "managed",
+          "projectId": "5VuZBYsf9XShsH8JN1E7RG",
+          "renderModuleFilePath": "plasmic/racing_united_2/PlasmicRacingUnited2.tsx",
+          "importSpec": {
+            "modulePath": "../pages/racing-united-2.tsx"
+          },
+          "cssFilePath": "plasmic/racing_united_2/PlasmicRacingUnited2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "v-bAqbDEMZ",
+          "name": "RacingUnited3",
+          "type": "managed",
+          "projectId": "5VuZBYsf9XShsH8JN1E7RG",
+          "renderModuleFilePath": "plasmic/racing_united_2/PlasmicRacingUnited3.tsx",
+          "importSpec": {
+            "modulePath": "../pages/racing-united-3.tsx"
+          },
+          "cssFilePath": "plasmic/racing_united_2/PlasmicRacingUnited3.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "-ivwnfL97LCLbL",
+          "name": "TwitterIconIcon",
+          "moduleFilePath": "plasmic/racing_united_2/icons/PlasmicIcon__TwitterIcon.tsx"
+        },
+        {
+          "id": "0A95z8OLmlTPSk",
+          "name": "GithubIconIcon",
+          "moduleFilePath": "plasmic/racing_united_2/icons/PlasmicIcon__GithubIcon.tsx"
+        },
+        {
+          "id": "yhNODaRPeWdHxV",
+          "name": "FacebookIconIcon",
+          "moduleFilePath": "plasmic/racing_united_2/icons/PlasmicIcon__FacebookIcon.tsx"
+        },
+        {
+          "id": "O5RZGCGhd8opZc",
+          "name": "FacebookLogoIcon",
+          "moduleFilePath": "plasmic/racing_united_2/icons/PlasmicIcon__FacebookLogo.tsx"
+        },
+        {
+          "id": "z5XpRFuCtLjRwb",
+          "name": "LogoIcon",
+          "moduleFilePath": "plasmic/racing_united_2/icons/PlasmicIcon__Logo.tsx"
+        },
+        {
+          "id": "PQRPJH6ZsxiJ3s",
+          "name": "SphereIcon",
+          "moduleFilePath": "plasmic/racing_united_2/icons/PlasmicIcon__Sphere.tsx"
+        },
+        {
+          "id": "Ride7gwHV82gr1",
+          "name": "QuoteDashesIcon",
+          "moduleFilePath": "plasmic/racing_united_2/icons/PlasmicIcon__QuoteDashes.tsx"
+        },
+        {
+          "id": "MiSASlHhRRN-RZ",
+          "name": "TinderLogoIcon",
+          "moduleFilePath": "plasmic/racing_united_2/icons/PlasmicIcon__TinderLogo.tsx"
+        },
+        {
+          "id": "TjeyXFe0m_4rY4",
+          "name": "AirbnbLogoIcon",
+          "moduleFilePath": "plasmic/racing_united_2/icons/PlasmicIcon__AirbnbLogo.tsx"
+        },
+        {
+          "id": "N6EHhaJlFfE7w2",
+          "name": "HubspotLogoIcon",
+          "moduleFilePath": "plasmic/racing_united_2/icons/PlasmicIcon__HubspotLogo.tsx"
+        },
+        {
+          "id": "YNjWyqG4WX9aG3",
+          "name": "AmazonLogoIcon",
+          "moduleFilePath": "plasmic/racing_united_2/icons/PlasmicIcon__AmazonLogo.tsx"
+        },
+        {
+          "id": "GUpGIoV19iKkx7",
+          "name": "SwapIcon",
+          "moduleFilePath": "plasmic/racing_united_2/icons/PlasmicIcon__Swap.tsx"
+        },
+        {
+          "id": "d5cIcRtIxG5B6-",
+          "name": "SlotIcon",
+          "moduleFilePath": "plasmic/racing_united_2/icons/PlasmicIcon__Slot.tsx"
+        },
+        {
+          "id": "1gCVEBH8OVcT2B",
+          "name": "CycleIcon",
+          "moduleFilePath": "plasmic/racing_united_2/icons/PlasmicIcon__Cycle.tsx"
+        },
+        {
+          "id": "Th2aX5QnRUzhAB",
+          "name": "HammerIcon",
+          "moduleFilePath": "plasmic/racing_united_2/icons/PlasmicIcon__Hammer.tsx"
+        },
+        {
+          "id": "DSYEAN2m7eBeXU",
+          "name": "PencilIcon",
+          "moduleFilePath": "plasmic/racing_united_2/icons/PlasmicIcon__Pencil.tsx"
+        },
+        {
+          "id": "LmkWQMrksu2EFs",
+          "name": "LightningIcon",
+          "moduleFilePath": "plasmic/racing_united_2/icons/PlasmicIcon__Lightning.tsx"
+        },
+        {
+          "id": "xBkqWkhGPoL7xz",
+          "name": "RightArrowIcon",
+          "moduleFilePath": "plasmic/racing_united_2/icons/PlasmicIcon__RightArrow.tsx"
+        },
+        {
+          "id": "fpXIlHKjxhR6nP",
+          "name": "Done24Pxsvg2Icon",
+          "moduleFilePath": "plasmic/racing_united_2/icons/PlasmicIcon__Done24Pxsvg2.tsx"
+        },
+        {
+          "id": "Kpt0eQGbCIOiyO",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/racing_united_2/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "mUEok-zOcOYT2V",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/racing_united_2/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "1GoaMUBwamwmwG",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/racing_united_2/icons/PlasmicIcon__Searchsvg.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "aEg8T_8VPSH4wY",
+          "name": "profilepic",
+          "filePath": "../public/plasmic/racing_united_2/images/profilepic.png"
+        },
+        {
+          "id": "jlFeNzJyyFUpab",
+          "name": "task",
+          "filePath": "../public/plasmic/racing_united_2/images/task.png"
+        },
+        {
+          "id": "8WRuY5MeNyS4eQ",
+          "name": "simple-project",
+          "filePath": "../public/plasmic/racing_united_2/images/simpleProject.png"
+        },
+        {
+          "id": "Uph8F0tFc98go7",
+          "name": "hero-image",
+          "filePath": "../public/plasmic/racing_united_2/images/heroImage.png"
+        },
+        {
+          "id": "gcizGdS4qRtGcC",
+          "name": "IMG_0349.JPG",
+          "filePath": "../public/plasmic/racing_united_2/images/img0349Jpg.jpeg"
+        },
+        {
+          "id": "9UVjrF0Q1_-35z",
+          "name": "IMG_0514.JPG",
+          "filePath": "../public/plasmic/racing_united_2/images/img0514Jpg.jpeg"
+        },
+        {
+          "id": "40NsnaQI_Nl90b",
+          "name": "Racing United transparent.png",
+          "filePath": "../public/plasmic/racing_united_2/images/racingUnitedTransparentpng.png"
+        },
+        {
+          "id": "DC3zC3BsDSGvOj",
+          "name": "Racing United transparent.png 2",
+          "filePath": "../public/plasmic/racing_united_2/images/racingUnitedTransparentpng2.png"
+        },
+        {
+          "id": "qKqTv-E8x",
+          "name": "Racing United transparent.png 3",
+          "filePath": "../public/plasmic/racing_united_2/images/racingUnitedTransparentpng3.png"
+        },
+        {
+          "id": "JRyJpWxmX",
+          "name": "Racing United transparent.png 4",
+          "filePath": "../public/plasmic/racing_united_2/images/racingUnitedTransparentpng4.png"
+        },
+        {
+          "id": "5NEGpFnUs",
+          "name": "Racing United transparent.png 5",
+          "filePath": "../public/plasmic/racing_united_2/images/racingUnitedTransparentpng5.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "njLjKdr2AGm9f7",
+        "name": "Screen",
+        "projectId": "5VuZBYsf9XShsH8JN1E7RG",
+        "contextFilePath": "plasmic/racing_united_2/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.176",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.176/dist/plasmic.schema.json"
+}
